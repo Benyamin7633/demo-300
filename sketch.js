@@ -15,6 +15,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
+    // add sprites 
 
     ground = new Ground(600,height,1200,20);
     platform = new Ground(150, 305, 300, 170);
@@ -37,6 +38,8 @@ function setup(){
     bird = new Bird(100,100);
 
 }
+
+//git is awesome 
 
 function draw(){
     background(backgroundImg);
